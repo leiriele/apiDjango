@@ -5,7 +5,8 @@ from .models import User, UserTasks
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model: User
-        fields: '__all__' # os dados que deseja retornar 
+        fields: '__all__' # os dados que deseja retornar ao front
+        
 """
 class UserTaskSerializer(serializers.ModelSerializer):
     class Meta:
