@@ -39,8 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',   
     "rest_framework",
     "corsheaders",
-    "api_rest",
-    
+    "api_rest"
 ]
 
 MIDDLEWARE = [
@@ -54,7 +53,7 @@ MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
 ]
 
-ROOT_URLCONF = 'api_root.urls'
+ROOT_URLCONF = 'api_root.urls'  
 
 TEMPLATES = [
     {
